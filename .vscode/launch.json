@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "🚗 Clase 4 - Juego Completo (Entregas y Minimapa)",
+      "request": "launch",
+      "mainClass": "com.graphics.clase4",
+      "projectName": "ciudad-conduccion",
+      "vmArgs": "--enable-native-access=ALL-UNNAMED"
+    },
+    {
+      "type": "java",
+      "name": "💡 Clase 3 - Iluminación y Faros",
+      "request": "launch",
+      "mainClass": "com.graphics.clase3",
+      "projectName": "ciudad-conduccion",
+      "vmArgs": "--enable-native-access=ALL-UNNAMED"
+    },
+    {
+      "type": "java",
+      "name": "🚙 Clase 2 - Auto y Conducción",
+      "request": "launch",
+      "mainClass": "com.graphics.clase2",
+      "projectName": "ciudad-conduccion",
+      "vmArgs": "--enable-native-access=ALL-UNNAMED"
+    },
+    {
+      "type": "java",
+      "name": "🏙️ Clase 1 - Ciudad 3D",
+      "request": "launch",
+      "mainClass": "com.graphics.clase1",
+      "projectName": "ciudad-conduccion",
+      "vmArgs": "--enable-native-access=ALL-UNNAMED"
+    }
+  ]
+}

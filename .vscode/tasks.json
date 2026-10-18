@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Ejecutar Clase 4 (Juego Completo)",
+      "type": "shell",
+      "command": "mvn compile exec:exec -Pclase4",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar Clase 3 (Iluminación)",
+      "type": "shell",
+      "command": "mvn compile exec:exec -Pclase3",
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar Clase 2 (Auto y Conducción)",
+      "type": "shell",
+      "command": "mvn compile exec:exec -Pclase2",
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar Clase 1 (Ciudad 3D)",
+      "type": "shell",
+      "command": "mvn compile exec:exec -Pclase1",
+      "problemMatcher": []
+    },
+    {
+      "label": "Compilar y probar (mvn test)",
+      "type": "shell",
+      "command": "mvn test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Empaquetar JAR ejecutable (mvn package)",
+      "type": "shell",
+      "command": "mvn package",
+      "problemMatcher": []
+    }
+  ]
+}

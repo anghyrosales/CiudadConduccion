@@ -1,0 +1,7 @@
+target/
+.DS_Store
+tmp/
+entrega/
+.github/modernize/
+*.class
+*.log
